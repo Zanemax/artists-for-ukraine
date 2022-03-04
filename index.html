@@ -1,0 +1,176 @@
+---
+layout: wrapper
+title: Artists for Ukraine
+---
+<style media="screen">
+  .row {
+    width: 100%;
+  }
+  .artwork-box img {
+    width: 100%;
+  }
+
+  .news-box img {
+    width: 100%;
+  }
+  .news-box {
+    text-decoration: none;
+  }
+  .news-title {
+    margin-top: 5px;
+    color: black;
+  }
+
+  .artwork-artist {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .artwork-title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .artwork-description {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: grey;
+    font-size: 16px;
+  }
+  .artwork-price {
+    margin-top: 5px;
+    color: grey;
+    font-size: 16px;
+  }
+
+  .intro {
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 4px solid black;
+  }
+
+  .direct-donate {
+    padding-left: 10px;
+    padding-right: 10px;
+    align: center;
+    margin: auto;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .direct-donate a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .donation-button {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .donation-button:hover {
+    background-color: #ffd700;
+  }
+  .progress-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+  }
+  .left-progress-bar {
+    background-color: #0057b7;
+    width: 10%;
+    height: 100%;
+  }
+  .right-progress-bar {
+    background-color: #e3e3e3;
+    width: 90%;
+    height: 100%;
+  }
+  @media screen and (min-width: 600px) {
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .artwork-box, .news-box {
+      width: 48%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .artwork-box, .news-box {
+      width: 100%;
+    }
+  }
+</style>
+
+
+<div class="intro">
+  <h1>Urgent appeal: donate to relief efforts to support refugees fleeing from war in Ukraine!</h1>
+</div>
+<br>
+
+<center>
+<h2>Donate:</h2>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdFvDRwQumdoAOCaqPQOVQ">£5</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdTADRwQumdoAOKvEfzuj8">£10</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdTXDRwQumdoAOVXYoWFMI">£20</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdUGDRwQumdoAOQHfdKcwT">£50</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdUfDRwQumdoAOsyBMri1p">£100</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdV6DRwQumdoAOZ4sq1OBF">£200</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdVgDRwQumdoAObtk0gDM1">£500</button>
+
+<button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdW0DRwQumdoAOnH2hyTDR">£1000</button>
+</center>
+
+<!--
+<div class="row">
+  {% for artwork in site.data.artworks limit:2 %}
+
+  <div class="artwork-box">
+    <img src="/assets/images/{{ artwork.image }}" alt="">
+    <h3 class="artwork-artist">{{ artwork.artist }}</h3>
+    <p class="artwork-title">{{ artwork.title }}</p>
+    <p class="artwork-description">{{ artwork.description }}</p>
+    <p class="artwork-price">{{ artwork.price }}</p>
+  </div>
+
+  {% endfor %}
+</div>
+-->
+
+<br><br>
+<div class="progress-bar">
+  <div class="left-progress-bar"></div>
+  <div class="right-progress-bar"></div>
+</div>
+<p>Currently raised: £50</p>
+<br>
+
+<h2>Updates:</h2>
+<br>
+
+<div class="row">
+  {% for post in site.posts limit:2 %}
+
+  <a href="{{ post.url }}" class="news-box">
+    <img src="/assets/images/{{ post.image }}" alt="">
+    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
+  </a>
+
+  {% endfor %}
+</div>
