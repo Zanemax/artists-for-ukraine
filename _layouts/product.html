@@ -1,0 +1,45 @@
+---
+layout: wrapper
+---
+<style media="screen">
+  .product-row {
+    display: flex;
+    justify-content: space-between;
+    }
+  .left-product-column {
+    width: 59%;
+  }
+  .right-product-column {
+    width: 39%;
+  }
+  .right-product-column h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .left-product-column img {
+    width: 100%;
+  }
+  .donation-button {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  .donation-button:hover {
+    background-color: #ffd700;
+  }
+</style>
+<div class="product-row">
+  <div class="left-product-column">
+    <img src="/assets/images/{{ page.image }}" alt="">
+  </div>
+  <div class="right-product-column">
+    <h3>{{ page.title }}</h3>
+    <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px;">{{ page.artist }}</p>
+    <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px; color: grey;">{{ page.price }}</p>
+    <p style="margin-top: 3px;">{{ content }}</p>
+    <button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdFvDRwQumdoAOCaqPQOVQ">Purchase</button>
+  </div>
+</div>

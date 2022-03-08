@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Urgent appeal
+category: news
 date:   2022-02-27 15:53:28 +0000
 image:  stand-with-ukraine.jpg
 image-text: Stand With Ukraine, Jane Mechner and Molly Nolan, 2022

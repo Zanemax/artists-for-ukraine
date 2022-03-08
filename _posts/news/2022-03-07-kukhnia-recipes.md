@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  Soup recipes from Kukhnia
+category: news
 date:   2022-03-07
 image:  yarik-recipe.png
-image-text: 
+image-text:
 ---
 Dear friends, colleagues, students,
 

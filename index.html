@@ -8,11 +8,15 @@ title: Artists for Ukraine
   }
   .artwork-box img {
     width: 100%;
+    transition: 0.5s;
   }
-
+  .artwork-box img:hover {
+    opacity: 0.7;
+  }
   .news-box img {
     width: 100%;
   }
+
   .news-box {
     text-decoration: none;
   }
@@ -24,21 +28,18 @@ title: Artists for Ukraine
   .artwork-artist {
     margin-top: 5px;
     margin-bottom: 0px;
+    font-size: 15px;
   }
   .artwork-title {
     margin-top: 5px;
     margin-bottom: 0px;
+    font-size: 15px;
   }
-  .artwork-description {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    color: grey;
-    font-size: 16px;
-  }
+
   .artwork-price {
-    margin-top: 5px;
+    margin-top: 0px;
     color: grey;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .intro {
@@ -87,14 +88,20 @@ title: Artists for Ukraine
   }
   .left-progress-bar {
     background-color: #0057b7;
-    width: 25%;
+    width: 30%;
     height: 100%;
   }
   .right-progress-bar {
     background-color: #e3e3e3;
-    width: 75%;
+    width: 70%;
     height: 100%;
   }
+
+  .artwork-box {
+    text-decoration: none;
+    color: black;
+  }
+
   @media screen and (min-width: 600px) {
     .row {
       display: flex;
@@ -115,8 +122,10 @@ title: Artists for Ukraine
 <div class="intro">
   <h1>Urgent appeal: donate to relief efforts to support refugees fleeing from war in Ukraine!</h1>
 </div>
-<br>
 
+
+
+<br>
 <p>We are fundraising to support two groups of artists and activists in Western Ukraine; one group near the Polish border in Lviv and another near the Hungarian border in Uzhhorod.
 </p>
 <p>
@@ -126,6 +135,7 @@ They have set up a private support network to help people fleeing the war. They 
 Spread the word. Please share.
 Every small contribution helps at this point. If you want to help in other ways, please get in touch.</p>
 </p>
+
 <br>
 <center>
 <h2>Donate:</h2>
@@ -147,35 +157,38 @@ Every small contribution helps at this point. If you want to help in other ways,
 <button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdW0DRwQumdoAOnH2hyTDR">£1000</button>
 </center>
 
-<!--
-<div class="row">
-  {% for artwork in site.data.artworks limit:2 %}
-
-  <div class="artwork-box">
-    <img src="/assets/images/{{ artwork.image }}" alt="">
-    <h3 class="artwork-artist">{{ artwork.artist }}</h3>
-    <p class="artwork-title">{{ artwork.title }}</p>
-    <p class="artwork-description">{{ artwork.description }}</p>
-    <p class="artwork-price">{{ artwork.price }}</p>
-  </div>
-
-  {% endfor %}
-</div>
--->
 
 <br><br>
 <div class="progress-bar">
   <div class="left-progress-bar"></div>
   <div class="right-progress-bar"></div>
 </div>
-<p>Currently raised: £2300</p>
+<p>Currently raised: £2555</p>
+
+<br><br>
+
+<!--
+<div class="row">
+  {% for post in site.categories.products limit:2 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
 <br>
+-->
+
 
 <h2>Updates:</h2>
 <br>
 
 <div class="row">
-  {% for post in site.posts limit:2 %}
+  {% for post in site.categories.news limit:2 %}
 
   <a href="{{ post.url }}" class="news-box">
     <img src="/assets/images/{{ post.image }}" alt="">
@@ -186,7 +199,7 @@ Every small contribution helps at this point. If you want to help in other ways,
 </div>
 
 <div class="row">
-  {% for post in site.posts limit:2 offset:2 %}
+  {% for post in site.categories.news limit:2 offset:2 %}
 
   <a href="{{ post.url }}" class="news-box">
     <img src="/assets/images/{{ post.image }}" alt="">

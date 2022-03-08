@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Kukhnia/Kitchen Update
+category: news
 date:   2022-03-05
 image:  kukhnia3.jpg
 image-text: Kukhnia, Lviv
