@@ -12,6 +12,10 @@ layout: wrapper
   .right-product-column {
     width: 39%;
   }
+  .right-product-column p {
+    font-size: 15px;
+    margin-top: 3px;
+  }
   .right-product-column h3 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -30,6 +34,18 @@ layout: wrapper
   .donation-button:hover {
     background-color: #ffd700;
   }
+
+  @media screen and (max-width: 800px) {
+    .product-row {
+      display: block;
+    }
+    .right-product-column, .left-product-column {
+      width: 100%;
+    }
+    .right-product-column h3 {
+      margin-top: 15px;
+    }
+  }
 </style>
 <div class="product-row">
   <div class="left-product-column">
@@ -39,7 +55,7 @@ layout: wrapper
     <h3>{{ page.title }}</h3>
     <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px;">{{ page.artist }}</p>
     <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px; color: grey;">{{ page.price }}</p>
-    <p style="margin-top: 3px;">{{ content }}</p>
+    <p>{{ content }}</p>
     <button class="donation-button" data-checkout-mode="payment" data-price-id="price_1KYdFvDRwQumdoAOCaqPQOVQ">Purchase</button>
   </div>
 </div>

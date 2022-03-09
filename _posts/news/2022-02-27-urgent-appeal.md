@@ -16,3 +16,5 @@ Thank you!
 
 Susanne Clausen, Professor of Fine Art, University of Reading
 (Fundraising in a personal capacity)
+
+Pavlo Kerestey, Artist
