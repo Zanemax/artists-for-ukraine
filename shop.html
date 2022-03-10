@@ -1,0 +1,83 @@
+---
+layout: wrapper
+title: Shop | Artists for Ukraine
+---
+<style media="screen">
+  .row {
+    width: 100%;
+  }
+  .artwork-box img {
+    width: 100%;
+    transition: 0.5s;
+  }
+  .artwork-box img:hover {
+    opacity: 0.7;
+  }
+
+  .artwork-artist {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+  .artwork-title {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+
+  .artwork-price {
+    margin-top: 0px;
+    color: grey;
+    font-size: 15px;
+  }
+  .artwork-box {
+    text-decoration: none;
+    color: black;
+  }
+  .back-button {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .back-button:hover {
+    background-color: #ffd700;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    .row {
+      display: flex;
+      justify-content: space-between;
+    }
+    .artwork-box {
+      width: 48%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .artwork-box {
+      width: 100%;
+    }
+  }
+</style>
+
+<h2>Shop</h2>
+
+<div class="row">
+  {% for post in site.categories.products limit:2 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<br>
+<button class="back-button" onclick="history.back()">Go Back</button>

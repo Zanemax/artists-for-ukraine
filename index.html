@@ -76,10 +76,28 @@ title: Artists for Ukraine
     font-size: 20px;
     cursor: pointer;
     margin: 5px;
+    text-decoration: none;
+    padding: 5px;
   }
   .donation-button:hover {
     background-color: #ffd700;
   }
+
+  .shop-link {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .shop-link:hover {
+    background-color: #ffd700;
+  }
+
+
   .progress-bar {
     width: 100%;
     display: flex;
@@ -102,6 +120,17 @@ title: Artists for Ukraine
     color: black;
   }
 
+  .shop-link-banner {
+    background-color: #f2f2f2;
+    width: 200%;
+    height: 250px;
+    margin-left: -50%;
+    margin-right: -50%;
+  }
+  .shop-link-title {
+    width: 50%;
+    padding-top: 50px;
+  }
   @media screen and (min-width: 600px) {
     .row {
       display: flex;
@@ -124,7 +153,7 @@ title: Artists for Ukraine
 </div>
 
 
-
+<!--
 <br>
 <p>We are fundraising to support two groups of artists and activists in Western Ukraine; one group near the Polish border in Lviv and another near the Hungarian border in Uzhhorod.
 </p>
@@ -135,6 +164,7 @@ They have set up a private support network to help people fleeing the war. They 
 Spread the word. Please share.
 Every small contribution helps at this point. If you want to help in other ways, please get in touch.</p>
 </p>
+-->
 
 <br>
 <center>
@@ -163,25 +193,20 @@ Every small contribution helps at this point. If you want to help in other ways,
   <div class="left-progress-bar"></div>
   <div class="right-progress-bar"></div>
 </div>
-<p>Currently raised: £3224</p>
+<p>Currently raised: £3698</p>
 
-<br><br>
-
-<!--
-<div class="row">
-  {% for post in site.categories.products limit:2 %}
-
-  <a href="{{ post.url }}" class="artwork-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
-    <h3 class="artwork-artist">{{ post.artist }}</h3>
-    <p class="artwork-title">{{ post.title }}</p>
-    <p class="artwork-price">{{ post.price }}</p>
-  </a>
-
-  {% endfor %}
-</div>
 <br>
--->
+
+
+<div class="shop-link-banner">
+  <center>
+  <h2 class="shop-link-title">Revenue from artwork will go towards refugees fleeing from war in Ukraine.</h2>
+  <br>
+  <a class="shop-link" href="/shop">Shop artwork</a>
+  </center>
+</div>
+
+<br>
 
 <h2>Updates:</h2>
 <br>
@@ -207,3 +232,47 @@ Every small contribution helps at this point. If you want to help in other ways,
 
   {% endfor %}
 </div>
+
+<script>
+  // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
+  var PUBLISHABLE_KEY = 'pk_live_51KYcICDRwQumdoAOELjHzYSfqPhKEaqoUJRW0kZtRxvWSXsxVIiPYM3grYnnJUkQs8QYgtDTeyuAyonPxEinRHnA0082pgXhs7';
+  // Replace with the domain you want your users to be redirected back to after payment
+  var DOMAIN = location.href.replace(/[^/]*$/, '');
+
+  if (PUBLISHABLE_KEY === 'pk_test_Tr8olTkdFnnJVywwhNPHwnHK00HkHV4tnP') {
+    console.log(
+      'Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys'
+    );
+  }
+
+  var stripe = Stripe(PUBLISHABLE_KEY);
+
+  // Handle any errors from Checkout
+  var handleResult = function (result) {
+    if (result.error) {
+      var displayError = document.getElementById('error-message');
+      displayError.textContent = result.error.message;
+    }
+  };
+
+  document.querySelectorAll('button').forEach(function (button) {
+    button.addEventListener('click', function (e) {
+      var mode = e.target.dataset.checkoutMode;
+      var priceId = e.target.dataset.priceId;
+      var items = [{ price: priceId, quantity: 1 }];
+
+      // Make the call to Stripe.js to redirect to the checkout page
+      // with the sku or plan ID.
+      stripe
+        .redirectToCheckout({
+          mode: mode,
+          lineItems: items,
+          successUrl:
+            DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
+          cancelUrl:
+            DOMAIN + 'canceled.html?session_id={CHECKOUT_SESSION_ID}',
+        })
+        .then(handleResult);
+    });
+  });
+</script>
