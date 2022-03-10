@@ -30,6 +30,8 @@ layout: wrapper
     font-size: 15px;
     cursor: pointer;
     margin: 0px;
+    padding: 5px;
+    text-decoration: none;
   }
   .donation-button:hover {
     background-color: #ffd700;
@@ -59,7 +61,7 @@ layout: wrapper
     <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px;">{{ page.artist }}</p>
     <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px; color: grey;">{{ page.price }}</p>
     <p>{{ content }}</p>
-    <button class="donation-button" data-checkout-mode="payment" data-price-id="{{ page.price-id }}">Purchase</button>
+    <a href="mailto:susanne@szuper.org" class="donation-button">Contact to purchase</a>
   </div>
 </div>
 

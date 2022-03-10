@@ -233,6 +233,17 @@ Every small contribution helps at this point. If you want to help in other ways,
   {% endfor %}
 </div>
 
+<div class="row">
+  {% for post in site.categories.news limit:2 offset:4 %}
+
+  <a href="{{ post.url }}" class="news-box">
+    <img src="/assets/images/{{ post.image }}" alt="">
+    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
+  </a>
+
+  {% endfor %}
+</div>
+
 <script>
   // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
   var PUBLISHABLE_KEY = 'pk_live_51KYcICDRwQumdoAOELjHzYSfqPhKEaqoUJRW0kZtRxvWSXsxVIiPYM3grYnnJUkQs8QYgtDTeyuAyonPxEinRHnA0082pgXhs7';
