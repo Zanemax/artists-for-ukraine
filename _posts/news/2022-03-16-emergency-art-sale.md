@@ -12,6 +12,8 @@ All funds raised from the art sale will go to support ‘Kuhknia’ (Kitchen) a 
 
 Co-organisers, Susanne Clausen, Pavlo Kerestey, Uriel Kerestey, Stéphanie Mitchell and Ollie Musson are all Reading-based, and are working together in a personal capacity to raise funds to support the efforts in Ukraine.
 
+In addition to the art sale, the event will include music, statements from those affected, and words of solidarity from community leaders.
+
 Venue: <a href="https://fivesevenone.org">571 Oxford Road Gallery</a> (<a href="https://ohos.org.uk">Open Hand Open Space</a>), Brock Keep, 571 Oxford Road, Reading, RG30 1HW
 
 Date: Thursday, 24 March 2022<br>
