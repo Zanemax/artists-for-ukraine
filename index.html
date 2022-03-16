@@ -240,14 +240,14 @@ Every small contribution helps at this point. If you want to help in other ways,
   <div class="left-progress-bar"></div>
   <div class="right-progress-bar"></div>
 </div>
-<p>Currently raised: £5358</p>
+<p>Currently raised: £5513</p>
 
 <br>
 
 
 <div class="shop-link-banner">
   <center>
-  <h2 class="shop-link-title">Revenue from artwork will go towards refugees fleeing from war in Ukraine.</h2>
+  <h2 class="shop-link-title">Stay up to day with artwork to be featured at our fundraising exhibition.</h2>
   <br>
   <a class="shop-link" href="/shop">Shop artwork</a>
   </center>
@@ -290,6 +290,17 @@ Every small contribution helps at this point. If you want to help in other ways,
 
 <div class="row">
   {% for post in site.categories.news limit:2 offset:4 %}
+
+  <a href="{{ post.url }}" class="news-box">
+    <img src="/assets/images/{{ post.image }}" alt="">
+    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
+  </a>
+
+  {% endfor %}
+</div>
+
+<div class="row">
+  {% for post in site.categories.news limit:2 offset:6 %}
 
   <a href="{{ post.url }}" class="news-box">
     <img src="/assets/images/{{ post.image }}" alt="">
