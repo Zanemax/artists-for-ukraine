@@ -71,7 +71,7 @@ title: Shop | Artists for Ukraine
   {% for post in site.categories.products limit:2 %}
 
   <a href="{{ post.url }}" class="artwork-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
     <h3 class="artwork-artist">{{ post.artist }}</h3>
     <p class="artwork-title">{{ post.title }}</p>
     <p class="artwork-price">{{ post.price }}</p>
@@ -79,5 +79,126 @@ title: Shop | Artists for Ukraine
 
   {% endfor %}
 </div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:2 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:4 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:6 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:8 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:10 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:12 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:14 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:16 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:18 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+<div class="row">
+  {% for post in site.categories.products limit:2 offset:20 %}
+
+  <a href="{{ post.url }}" class="artwork-box">
+    <img src="/assets/images/artwork/{{ post.image }}" alt="">
+    <h3 class="artwork-artist">{{ post.artist }}</h3>
+    <p class="artwork-title">{{ post.title }}</p>
+    <p class="artwork-price">{{ post.price }}</p>
+  </a>
+
+  {% endfor %}
+</div>
+
 <br>
 <button class="back-button" onclick="history.back()">Go Back</button>
