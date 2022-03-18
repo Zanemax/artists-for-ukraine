@@ -14,6 +14,8 @@ Co-organisers, Susanne Clausen, Pavlo Kerestey, Uriel Kerestey, Stéphanie Mitch
 
 In addition to the art sale, the event will include music, statements from those affected, and words of solidarity from community leaders.
 
+You can purchase tickets to the event <a href="https://www.eventbrite.co.uk/e/artists-for-ukraine-art-sale-tickets-296232668887?aff=ebdsoporgprofile">here</a>.
+
 Venue: <a href="https://fivesevenone.org">571 Oxford Road Gallery</a> (<a href="https://ohos.org.uk">Open Hand Open Space</a>), Brock Keep, 571 Oxford Road, Reading, RG30 1HW
 
 Date: Thursday, 24 March 2022<br>
