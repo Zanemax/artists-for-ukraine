@@ -1,15 +1,96 @@
 <style media="screen">
   .footer-box {
     width: 100%;
-    height: 20px;
     background-color: black;
     bottom: 0;
     box-shadow: 0 50vh 0 50vh black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .footer-column p, .footer-column a {
+    font-size: 15px;
+    color: lightgrey;
+  }
+  .footer-column {
+    width: 47%;
+  }
+  .footer-donation-button {
+    background-color: black;
+    color: lightgrey;
+    border: 2px solid lightgrey;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px;
+    margin-bottom: 7px;
+  }
+
+  .footer-donation-button:hover {
+    background-color: blue;
+  }
+
+  .footer-splitter {
+    width: 1px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 800px) {
+    .footer-box {
+      margin: auto;
+      width: 80%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .footer-box {
+      margin: auto;
+      width: 60%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .footer-box {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: block;
+    }
+    .footer-column {
+      width: 100%;
+    }
+    .footer-splitter {
+      height: 1px;
+      width: 100%;
+    }
   }
 </style>
-
 <div class="footer-box">
+  <div class="footer-column">
+    <p>Please consider making a donation:</p>
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdFvDRwQumdoAOCaqPQOVQ">£5</button>
 
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdTADRwQumdoAOKvEfzuj8">£10</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdTXDRwQumdoAOVXYoWFMI">£20</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdUGDRwQumdoAOQHfdKcwT">£50</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdUfDRwQumdoAOsyBMri1p">£100</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdV6DRwQumdoAOZ4sq1OBF">£200</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdVgDRwQumdoAObtk0gDM1">£500</button>
+
+    <button class="footer-donation-button" data-checkout-mode="payment" data-price-id="price_1KYdW0DRwQumdoAOnH2hyTDR">£1000</button>
+
+    <br>
+    <p>All funds are used to provide food, shelter and urgent humanitarian aid to refugees fleeing from war in Ukraine.</p>
+  </div>
+
+  <div class="footer-splitter"></div>
+
+  <div class="footer-column">
+    <p>We hope to welcome you at our upcoming emergency fundraising exhibition on the 24 March, featuring works by over 50 international artists from Ukraine and the UK. Tickets are available for purchase <a style="border-bottom: 1px solid lightgrey;" href="https://www.eventbrite.co.uk/e/artists-for-ukraine-art-sale-tickets-296232668887?aff=ebdsoporgprofile">here</a>.</p>
+  </div>
 </div>
-<center><p style="font-size: 15px; color: white;">Thank you for your support!</p></center>
-<br>
