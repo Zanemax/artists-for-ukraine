@@ -8,4 +8,4 @@ image:  untitled-lysovenko.jpg
 price:
 permalink: /shop/untitled-lysovenko
 ---
-2022, Colour print, 30x40cm
+2022, Colour Print, 30x40cm

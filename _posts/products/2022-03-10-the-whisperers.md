@@ -8,4 +8,4 @@ image:  the-whisperers.jpg
 price:
 permalink: /shop/the-whisperers
 ---
-2022, Giclee Print on Photo Rag Hand finished, 1/3, 14x24cm
+2022, Giclee Print on Photo Rag Hand Finished, 1/3, 14x24cm

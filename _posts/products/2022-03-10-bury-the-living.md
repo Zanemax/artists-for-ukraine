@@ -8,4 +8,4 @@ image:  bury-the-living.jpg
 price:
 permalink: /shop/bury-the-living
 ---
-2019, Black toned cyanotype on cartridge paper, 7/10, 56x76cm
+2019, Black Toned Cyanotype on Cartridge Paper, 7/10, 56x76cm

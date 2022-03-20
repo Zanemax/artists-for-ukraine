@@ -8,4 +8,4 @@ image:  shop-window.jpg
 price:
 permalink: /shop/shop-window
 ---
-2015, Colour print, 30x40cm
+2015, Colour Print, 30x40cm

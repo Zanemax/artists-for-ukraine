@@ -8,4 +8,4 @@ image:  double-stripe.jpg
 price:
 permalink: /shop/double-stripe
 ---
-2014, Colour print, 30x40cm
+2014, Colour Print, 30x40cm

@@ -8,4 +8,4 @@ image:  untitled-skugareva-1.jpg
 price:
 permalink: /shop/untitled-skugareva
 ---
-2011, Oil Print of Kitchen Towel, 65x40cm
+2011, Colour Print of Kitchen Towel, 65x40cm
