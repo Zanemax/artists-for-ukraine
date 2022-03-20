@@ -1,6 +1,6 @@
 ---
 layout: product
-title:  Untitled 1
+title:  Untitled
 artist: Maryna Skugareva
 category: products
 date:   2020-02-26 15:53:28 +0000
