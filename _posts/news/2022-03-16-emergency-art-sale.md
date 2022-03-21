@@ -14,7 +14,13 @@ Co-organisers, Susanne Clausen, Pavlo Kerestey, Uriel Kerestey, Stéphanie Mitch
 
 In addition to the art sale, the event will include music, statements from those affected, and words of solidarity from community leaders.
 
-You can purchase tickets to the event <a href="https://www.eventbrite.co.uk/e/artists-for-ukraine-art-sale-tickets-296232668887?aff=ebdsoporgprofile">here</a>.
+Event refreshments will be generously provided by <a href="https://doublebarrelled.co.uk/">Double Barrelled Brewery</a>.
+
+<img style="width: 100px;" src="/assets/images/db.png">
+
+Music kindly provided by <a href="https://twitter.com/tracksgrooves">Tracks and Grooves</a>.
+
+### You can purchase tickets to the event <a href="https://www.eventbrite.co.uk/e/artists-for-ukraine-art-sale-tickets-296232668887?aff=ebdsoporgprofile">here</a>.
 
 Venue: <a href="https://fivesevenone.org">571 Oxford Road Gallery</a> (<a href="https://ohos.org.uk">Open Hand Open Space</a>), Brock Keep, 571 Oxford Road, Reading, RG30 1HW
 
