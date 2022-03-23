@@ -59,9 +59,13 @@ layout: wrapper
   <div class="right-product-column">
     <h3>{{ page.title }}</h3>
     <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px;">{{ page.artist }}</p>
-    <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px; color: grey;">{{ page.price }}</p>
+    <p style="margin-top: 3px; margin-bottom: 0px; font-size: 15px; color: grey;">{{ page.price }}
+    {% if page.status == "sold" %} (SOLD){% endif %}
+    </p>
     <p>{{ content }}</p>
+    {% if page.status != "sold" %}
     <a href="mailto:susanne@szuper.org" class="donation-button">Contact to purchase</a>
+    {% endif %}
   </div>
 </div>
 

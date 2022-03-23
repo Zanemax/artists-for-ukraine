@@ -5,7 +5,7 @@ artist: Igor Gusev
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  russian-warship.jpg
-price: 
+price: £90
 permalink: /shop/russian-warship
 ---
-2022, Colour Print, 40x60cm
+2022, Colour Print, 50x70cm

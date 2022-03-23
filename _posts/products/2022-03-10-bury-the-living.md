@@ -5,7 +5,7 @@ artist: Meryl Donaghue
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  bury-the-living.jpg
-price:
+price: £250
 permalink: /shop/bury-the-living
 ---
 2019, Black Toned Cyanotype on Cartridge Paper, 7/10, 56x76cm

@@ -16,7 +16,7 @@ Denis Pankratov starts the day with coffee and a cigarette while a huge pot of p
 
 Before the war, Denis Pankratov worked as an organiser for a crane drivers' union and shared a funky apartment with a friend. Now about ten people live here, most of them IDPs. They all participate in volunteer work.
 
----“Much of this spirit is a continuation of the self-organization we experienced during the Maidan revolution in 2014", says Sergei Sabakar, a teacher at the Ukrainian State Academy of Arts who fled Kyiv.
+---“Much of this spirit is a continuation of the self-organization we experienced during the Maidan revolution in 2014", says Sergei Sabakar, a lecturer at the Ukrainian National Academy of Fine Arts who fled Kyiv.
 
 ### Air strikes outside Lviv
 

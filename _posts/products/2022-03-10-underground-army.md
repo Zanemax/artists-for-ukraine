@@ -5,7 +5,7 @@ artist: Igor Gusev
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  underground-army.jpg
-price: 
+price: £90
 permalink: /shop/underground-army
 ---
-2022, Colour Print, 60x40cm
+2022, Colour Print, 70x50cm
