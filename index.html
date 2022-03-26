@@ -240,7 +240,7 @@ Every small contribution helps at this point. If you want to help in other ways,
   <div class="left-progress-bar"></div>
   <div class="right-progress-bar"></div>
 </div>
-<p>Currently raised: £12,860</p>
+<p>Currently raised: £12,910</p>
 
 <br>
 
@@ -256,46 +256,15 @@ Every small contribution helps at this point. If you want to help in other ways,
 <h2 style="margin-top: 270px;">Updates:</h2>
 <br>
 
-<div class="row">
-  {% for post in site.categories.news limit:2 %}
-
-  <a href="{{ post.url }}" class="news-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
-    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
-  </a>
-
-  {% endfor %}
-</div>
-
-<div class="row">
-  {% for post in site.categories.news limit:2 offset:2 %}
-
-  <a href="{{ post.url }}" class="news-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
-    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
-  </a>
-
-  {% endfor %}
-</div>
-
-<div class="row">
-  {% for post in site.categories.news limit:2 offset:4 %}
-
-  <a href="{{ post.url }}" class="news-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
-    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
-  </a>
-
-  {% endfor %}
-</div>
-
-<div class="row">
-  {% for post in site.categories.news limit:2 offset:6 %}
-
-  <a href="{{ post.url }}" class="news-box">
-    <img src="/assets/images/{{ post.image }}" alt="">
-    <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
-  </a>
-
-  {% endfor %}
-</div>
+{% assign rows = site.categories.news.size | divided_by: 2.0 | ceil %}
+{% for i in (1..rows) %}
+  {% assign offset = forloop.index0 | times: 2 %}
+  <div class="row">
+    {% for post in site.categories.news limit:2 offset:offset %}
+      <a href="{{ post.url }}" class="news-box">
+        <img src="/assets/images/{{ post.image }}" alt="">
+        <h3 class="news-title">{{ post.title }} <span style="color: grey; font-size: 15px;">| {{ post.date | date_to_long_string }}</span></h3>
+      </a>
+    {% endfor %}
+  </div>
+{% endfor %}
