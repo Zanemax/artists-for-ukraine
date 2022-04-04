@@ -6,7 +6,7 @@ category: products
 date:   2020-02-29 15:53:28 +0000
 image:  untitled-lysovenko.jpg
 price: £70
-status: sold
+status:
 permalink: /shop/untitled-lysovenko
 ---
 2022, Colour Print, 40x50cm
