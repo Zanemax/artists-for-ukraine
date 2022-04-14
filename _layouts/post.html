@@ -11,13 +11,29 @@ layout: wrapper
     margin-top: 2px;
     color: grey;
   }
+
   .post-content img {
     width: 100%;
+    align: center;
+    z-index: 1;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   @media screen and (min-width: 800px) {
     .post-content {
       width: 80%;
       margin: auto;
+    }
+    .post-content img {
+      width: 105%;
+      align: center;
+      z-index: 1;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 </style>
