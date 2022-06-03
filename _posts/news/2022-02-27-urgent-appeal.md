@@ -4,7 +4,7 @@ title:  Urgent appeal
 category: news
 date:   2022-02-27 15:53:28 +0000
 image:  stand-with-ukraine.jpg
-image-text: Stand With Ukraine, Jane Mechner and Molly Nolan, 2022
+image-text: Stand With Ukraine, Jane Mechner and Molly Nolan (2022)
 ---
 People fleeing the war in Ukraine are in urgent need of your help. Please help us support a number of local groups in Lviv and Uzhhorod who are aiding war refugees in need. There are thousands of people stranded on both sides of the border to Poland, Slovakia, Hungary, Romania and Moldova who are in desperate need of medicine, food and other humanitarian supplies. Well over 600,000 refugees have been forced to leave the country so far according to the United Nations, and this number is expected to rise dramatically, so we must act fast.
 
