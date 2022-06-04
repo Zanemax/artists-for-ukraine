@@ -8,6 +8,6 @@ image:  nightmare.jpg
 price: £70
 status:
 permalink: /shop/nightmare
-sort: 
+index: 9
 ---
 2022, Colour Print, 40x50cm

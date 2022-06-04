@@ -8,6 +8,6 @@ image:  line-drawing.jpg
 price: £150
 status: sold
 permalink: /shop/line-drawing
-sort: 
+index: 57
 ---
 2021, Ink on Paper, 40x60cm

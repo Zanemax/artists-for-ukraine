@@ -8,6 +8,6 @@ image:  russian-warship.jpg
 price: £90
 status:
 permalink: /shop/russian-warship
-sort: 
+index: 13
 ---
 2022, Colour Print, 50x70cm

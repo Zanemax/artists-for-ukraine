@@ -7,6 +7,6 @@ date:   2020-02-27 15:53:28 +0000
 image:  burnt-sugar.jpg
 price: £50
 permalink: /shop/burnt-sugar
-sort: 
+index: 34
 ---
 2022, Mixed Media on Paper, 36x30cm

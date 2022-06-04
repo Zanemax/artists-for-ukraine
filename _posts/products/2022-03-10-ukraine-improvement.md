@@ -8,6 +8,6 @@ image:  ukraine-improvement.jpg
 price: £90
 status:
 permalink: /shop/ukraine-improvement
-sort: 
+index: 4
 ---
 2014, Colour Print, 50x70cm
