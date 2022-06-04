@@ -8,5 +8,6 @@ image:  bury-the-living.jpg
 price: £250
 status: sold
 permalink: /shop/bury-the-living
+sort: 
 ---
 2019, Black Toned Cyanotype on Cartridge Paper, 7/10, 56x76cm

@@ -7,5 +7,6 @@ date:   2020-02-27 15:53:28 +0000
 image:  paljanytsja.jpg
 price: £70
 permalink: /shop/paljanytsja
+sort: 
 ---
 2022, Colour Print, 50x40cm

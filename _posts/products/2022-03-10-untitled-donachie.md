@@ -8,5 +8,6 @@ image:  untitled-donachie.jpg
 price: £300
 status: sold
 permalink: /shop/untitled-donachie
+sort: 
 ---
 2022, Watercolour on Paper, 40x30cm

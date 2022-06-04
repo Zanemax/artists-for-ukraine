@@ -8,5 +8,6 @@ image:  ocean-rose.jpg
 price: £250
 status: sold
 permalink: /shop/ocean-rose
+sort: 
 ---
 2015, Screen Print, 40x30cm

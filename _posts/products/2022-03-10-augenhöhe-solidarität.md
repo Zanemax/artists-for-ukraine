@@ -8,5 +8,6 @@ image:  augenhöhe-solidarität.jpg
 price: £300
 status: sold
 permalink: /shop/augenhöhe-solidarität
+sort: 
 ---
 2020, Oil on Canvas, 40x60cm

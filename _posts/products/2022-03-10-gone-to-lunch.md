@@ -8,5 +8,6 @@ image:  gone-to-lunch.jpg
 price: £50
 status: sold
 permalink: /shop/gone-to-lunch
+sort: 
 ---
 2009, Screen Print, 1/60, 25x25cm

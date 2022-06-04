@@ -8,5 +8,6 @@ image:  untitled-kakhidze.jpg
 price: £70
 status:
 permalink: /shop/untitled-kakhidze
+sort: 
 ---
 2022, Colour Print, 40x30cm
