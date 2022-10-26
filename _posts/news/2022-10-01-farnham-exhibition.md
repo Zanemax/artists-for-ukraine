@@ -15,6 +15,8 @@ Igor Gusev, Nikita Kadan, Zhanna Kadyrova, Alevtina Kakhidze, Lesja Khomenko, Pa
 Makov, Olha Pryymak and Marcel Onisko, Ukrainian artists who are displaced or currently
 sheltering from the war zone.
 
+![](/assets/images/artwork/ukraine-improvement.jpg)
+
 All funds raised from the art sale will go to support ‘Kuhknia’ (Kitchen) a private network of
 volunteers based in Lviv, who are cooking meals in makeshift kitchens, sourcing medicine
 and other vital supplies and arranging temporary accommodation in people’s homes or in
@@ -25,6 +27,8 @@ Thanks to donations, since February, Kukhnia have been able to serve more that 2
 meals, care for 5 shelters and host more than 20 refugees together with 18 volunteers. Aid
 shipments have also been sent to Bucha, Blystavytsya, Borodyanka, Vorzel, Ivankiv,
 Kukhari, Kharkiv, Odesa and Uzhhorod.
+
+![](/assets/images/close-the-sky.jpg)
 
 However, we expect that with the winter approaching and with donations slowing down, it will
 get harder and harder to maintain this level of support for those most vulnerable. We
@@ -40,15 +44,25 @@ words of solidarity from community leaders.
 With kind of support of St. Andrew’s Church, Making Matters and the Ukrainian Institute
 London.
 
-## Date
+![](/assets/images/odesa-2022.jpg)
+
+### Dates
 
 1 October - 31 October
 
-## Opening Times
+### Opening Times
 
 10am - 4pm
 
-## Contact
+### Address:
+
+St. Andrew’s Parish Church
+
+Upper Church Lane
+
+Farnham Surrey GU6 7PW    
+
+### Contact
 
 Pavlo Kerestey: kerestey@gmail.com
 
