@@ -6,7 +6,7 @@ date:   2022-10-01
 image:  artwork/russian-warship.jpg
 image-text: russian warship - go f..ck yourself, Igor Gusev (2022)
 ---
-# ART SALE TO SUPPORT REFUGEES FLEEING WAR IN UKRAINE: 1 OCTOBER - 31 OCTOBER
+# ART SALE TO SUPPORT REFUGEES FLEEING WAR IN UKRAINE: 1 OCTOBER - 19 NOVEMBER
 
 Artists for Ukraine’s second public event is an art exhibition and art sale, taking place at St.
 Andrew’s Church in Farnham from 1 - 31 October 2022. The exhibition features donations
@@ -48,7 +48,7 @@ London.
 
 ### Dates
 
-1 October - 31 October
+1 October - 19 November
 
 ### Opening Times
 
