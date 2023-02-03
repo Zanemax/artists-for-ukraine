@@ -6,7 +6,7 @@ date:   2023-01-31
 image:  posters5.jpg
 image-text: Oleksander Grekhov (2022)
 ---
-# DRINKS AND SOLIDARITY SALE: TUESDAY 21 FEBUARY 6
+# DRINKS AND SOLIDARITY SALE: TUESDAY 21 FEBUARY, 6-9PM
 
 An exhibition of posters created by artists and graphic designers who were forced to leave their homes due to military aggression and became temporarily displaced within the country. They have created wartime posters to fight the propaganda of the aggressor. The featured artists are part of a collective formed around an artist - run residency which used to be held in Biruchiy, on the Sea of Azov, now occupied territory. The group has re-organised and the exhibition is touring different international venues to raise awareness of the situation of artists and artist-run organisations in Ukraine.
 
