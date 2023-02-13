@@ -12,13 +12,13 @@ An exhibition of posters created by artists and graphic designers who were force
 
 ![](/assets/images/posters6.jpg)
 
-Dasha Podoltseva, 2022
+Image credit: Dasha Podoltseva, 2022
 
 “The artists show the reflections of the collective grief, despair, unbearable pain, sorrow and, at the same time, the willingness to fight and win. It is a cry for help, a declaration of our indomitable spirit and bravery, with elements of bitter irony and truth about specific events and war crimes,” says Olena Speranska, exhibition curator and director of the international residency programme Biruchiy.
 
 ![](/assets/images/posters7.jpg)
 
-Nastya Gaydaenko, 2022
+Image credit: Nastya Gaydaenko, 2022
 
 The Biruchiy contemporary art residency, implemented by the public organisation Union of Contemporary Art Researchers, was founded in 2006. In its 17 years of existence, more than 300 artists and 14 art groups from 19 countries have participated.
 
