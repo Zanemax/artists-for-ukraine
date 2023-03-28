@@ -1,7 +1,7 @@
 ---
 layout: product
 title:  Double stripe
-artist: Daniil Garkin
+artist: Daniil Galkin
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  double-stripe.jpg
