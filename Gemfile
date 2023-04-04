@@ -33,3 +33,5 @@ gem 'jekyll-stripe'
 
 #Jekyll SEO plugin
 gem 'jekyll-seo-tag'
+
+gem "webrick", "~> 1.8"
