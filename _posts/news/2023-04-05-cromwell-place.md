@@ -10,7 +10,7 @@ image-text: Lada Nakonechna (2019)
 
 Artists for Ukraine is pleased to present the display a selection of works from our collection at Cromwell Place London hosted by the exhibition <a href="https://www.cromwellplace.com/whats-on/art-in-conflict">_Spirit of Ukraine_</a>. The collection will be shown alongside an auction of works by Ukrainian artists including Maria Prymachenko, the renowned artist whose dedicated museum was burned down by Russian armed forces last year.
 
-Artists on display from the Artists for Ukraine collection include Zhanna Kadyrova, Lada Nakonechna, Nikita Kadan, Yaroslav Futymskyi, Igor Gusev, Natalia Lisova, Susanne Clausen, Oleg Tistol, Olha Pryymak, Alexander Royzman, Natalia Sharamova, Alexander Milstein, , Oleksiy Sai and Alevtina Kakhidze.
+Artists on display from the Artists for Ukraine collection include Zhanna Kadyrova, Lada Nakonechna, Nikita Kadan, Yaroslav Futymskyi, Igor Gusev, Natalia Lisova, Kateryna Lysovenko, Larion Lozovoy, Oleg Tistol, Olha Pryymak, Alexander Royzman, Natalia Sharamova, Alexander Milstein, Oleksiy Sai and Alevtina Kakhidze.
 
 To visit the exhibition, please book a free ticket <a href="https://www.tickettailor.com/events/cromwellplace/876454">here</a>.
 
