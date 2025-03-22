@@ -5,7 +5,7 @@ artist: Igor Gusev
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  underground-army.jpg
-price: £90
+price: £110
 permalink: /shop/underground-army
 index: 29
 ---
