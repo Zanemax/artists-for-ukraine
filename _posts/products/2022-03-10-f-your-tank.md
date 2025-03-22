@@ -5,7 +5,7 @@ artist: Marcel Onisko
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  f-your-tank.jpg
-price: £20
+price: £100
 permalink: /shop/f-your-tank
 index: 14
 ---

@@ -5,7 +5,7 @@ artist: Igor Gusev
 category: products
 date:   2020-02-27 15:53:28 +0000
 image:  holy-ukrainian-curse.jpg
-price: £90
+price: £100
 permalink: /shop/holy-ukrainian-curse
 index: 11
 ---
